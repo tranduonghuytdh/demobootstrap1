@@ -1,0 +1,204 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+    src:url(fonts/Lato-Regular.ttf);
+    font-family: lato-r;
+}
+
+@font-face {
+    src:url(fonts/Lato-Light.ttf);
+    font-family: lato-l;
+}
+
+
+.topheader {
+    background-color: #21c2f8;
+    border-top:5px solid #0787d4;
+    padding-top: 13px;
+}
+
+.topheader .phai .icon a {
+    color: #ffffff;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.nut .btn-outline-secondary, .nut .btn-secondary {
+    font-family: lato-b;
+    font-size: 14px;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 1px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+} 
+
+.nut .btn-secondary {
+    color: gray;
+}
+
+/*//////// Xong topheader ////////////*/
+
+.topmenu .menutren {
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu .navbar.menutren {
+    background-color: transparent;  
+}
+
+.topmenu ul.navbar-nav li.nav-item a.nav-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #2c3e50;
+    padding: 40px 20px 0px 20px;
+    border-top: 5px solid transparent;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.navbar-nav .nav-item.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu ul.navbar-nav li.nav-item.active a.nav-link {
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.topmenu ul.navbar-nav li.nav-item.active:hover a.nav-link {
+    color:  #2c3e50;
+}
+
+.topmenu ul.navbar-nav.menutrenphai li.nav-item a.nav-link i.fa {
+    font-size: 35px;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+
+/*/////////// Xong topmenu /////////////////*/
+
+.slide {
+    height: 520px;
+    overflow: hidden;
+}
+
+.slide .khoichu {
+    bottom: 56%;
+}
+
+.slide .khoichu .khoitext h5 {
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    color: #222533;
+}
+.slide .khoichu .khoitext h3 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #1a1c27;
+}
+
+ul.list {
+    list-style: none;
+}
+
+ul.list li.list-item i.fa {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+a.left.carousel-control {
+    background: none;
+}
+a.right.carousel-control {
+    background: none;
+}
+.nutslide .carousel-control {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin: 0 100px;
+    position: absolute;
+}
+
+/*/////////// Xong slide ////////////*/
+
+.end .bentrai h1 {
+    color: #2c3e50;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.end .bentrai p.p1 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #a1b1bc;
+}
+
+.end .bentrai h4 {
+    color: #a1b1bc;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+.end .bentrai p.p2 {
+    color: #a1b1bc;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+} 
+
+.end .cotphai .panel-title a {
+    color: #2c3e50;
+    font-family: lato-b;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid #eceef0;
+    display: block;
+    padding: 14px 19px;
+}
+
+.end .cotphai .panel-collapse {
+    border: 1px solid #f4f5f6;
+    padding: 20px 17px;
+}
+
+p {
+    font-size: 13px;
+    color: #a1b1bc;;
+}
+
+@media (max-width: 576px){
+    *{}
+
+.navbar-toggleable-xs .navbar-nav {
+    margin: 0px;
+}
+
+.topmenu ul.navbar-nav li.nav-item a.nav-link {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+a.logo {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.nut {
+    padding-top: 10px;
+    text-align: center;
+}
+}

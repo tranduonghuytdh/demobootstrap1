@@ -1,0 +1,294 @@
+*{margin: 0; padding: 0;}
+
+a.linkk {
+    display: block;
+    color: red;
+    font-size: 20px;
+    margin-left: -75px;
+}
+
+p.so {
+    margin-left: -46px;
+    font-size: 20px;
+}
+
+.noidung4 {
+    height: 730px;
+    background: #fff;
+}
+
+/*/////////////// Xong noidung2 ///////////*/
+
+a.btn.btn-secondary.nutdown.nutfind {
+    margin-top: 5px;
+}
+
+h3.chufree.mb-3 {
+    padding-top: 10%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.noidung3 {
+    background-color: #343a40;
+    height: 255px;
+    padding-bottom: 350px;
+}
+
+.noidung1 {
+    height: 623px;
+}
+
+.navbar.nentrang {
+    background-color: white;
+    transition: 0.7s;
+}
+
+.navbar {
+    transition: 0.7s;
+}
+
+a.navbar-brand.logo.maucam {
+    color: rgba(244, 98, 58, 0.9);
+    transition: 0.7s;
+}
+
+/*.menutren.mautrang {
+    background-color: white;
+    transition: 0.7s;
+}
+
+.navbar {
+    transition: 0.7s;
+}
+
+a.navbar-brand.logo.maucam {
+    color: rgba(244, 98, 58, 0.9);
+    transition: 0.4s;
+}*/
+
+/*/////////////// Xong noidung2 ////////////////*/
+
+.noidung2 [class*= 'col-']{
+    padding: 0;
+}
+
+.khoisanpham .tensp:hover {
+    opacity: 1;
+}
+
+.chupro {
+    text-transform: none;
+}
+
+.chuca {
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.tensp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(244, 98, 58, 0.9);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.khoisanpham {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.noidung2 {
+    overflow: hidden;
+}
+
+
+/*//////////////////// Xong noidung //////////////////*/
+
+.fa-5x {
+    color: #f4623a;
+}
+
+h3.chuat.chuyour.mb-3 {
+    padding-top: 17%;
+    font-size: 30px;
+}
+
+.noidung {
+    background: #f4623a;
+    height: 530px;
+}
+
+a.btn.btn-secondary.nutget.nutfind {
+    margin-top: 10px;
+    background: #f8f9fa;
+}
+
+a.btn.btn-secondary.nutget.nutfind:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+p.chustart1.chustart {
+    font-size: 14px;
+    color: #f9b08a;
+}
+
+h3.chuwe.chuyour {
+    font-size: 30px;
+    padding-top: 23%;
+    color: #fff;
+}
+
+h3.chuwe.chuyour:after {
+    content: '';
+    background-color: white;
+}
+
+/*/////////////////// Xong banner //////////////////*/
+
+.chustart {
+    color: gray;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px;
+}
+
+.nutfind {
+    background: #F46239;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 13.6px;
+    padding: 20px 36px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    margin-top: 30px;
+}
+
+.nutfind:hover {
+    color: #fff;
+    background-color: #f24516;
+    border-color: #ee3e0d;
+}
+
+
+.chuyour {
+    padding-top: 21%;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.chuyour:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f4623a;
+    display: block;
+    left: 50%;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 30px;
+}
+
+.banner {
+    color: white;
+}
+
+/*///////////////// Xong navbar:toggle //////////////*/
+
+a.navbar-brand.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 3px;
+    color: rgba(255,255,255,.5);
+}
+
+a.navbar-brand.logo:hover {
+    color: white;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 100%;
+    background-image: url(41.jpg);
+    background-size: cover;
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(41.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: scroll;
+}
+
+.menutren {
+    background-color: transparent;
+    border-bottom: 1px solid gray; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menutrenphai li a {
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+    *{}
+
+a.navbar-brand.logo {
+    width: 160px;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 0;
+    display: block;
+    border-bottom: 1px dashed gray;
+    width: 200px;
+    margin: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background: #947741;
+}
+
+    .navbar-toggleable-xs .navbar-nav {
+        text-align: center;
+    }
+
+    nav.navbar.navbar-dark.bg-faded.navbar-fixed-top.menutren {
+        background: black;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    *{}
+}
